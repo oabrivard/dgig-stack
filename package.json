@@ -1,0 +1,28 @@
+{
+  "name": "dgig-stack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "oabrivard",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "dependencies": {
+    "@types/react": "^16.0.5",
+    "@types/react-dom": "^15.5.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },  
+  "devDependencies": {
+    "@types/webpack-env": "^1.13.0",
+    "webpack": "^3.0.10",
+    "webpack-dev-server": "^2.7.1",
+    "webpack-hot-middleware": "^2.19.1",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^2.29.0",
+    "react-hot-loader": "^3.0.0-beta.7",
+    "ts-loader": "^2.3.6",
+    "typescript": "^2.5.0"
+  }
+}
